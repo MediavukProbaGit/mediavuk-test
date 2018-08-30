@@ -1,0 +1,526 @@
+/* ################## General ##################*/
+* {
+  box-sizing: border-box; }
+
+body {
+  color: #222222;
+  font-family: arial;
+  margin: 0 auto;
+  width: 100%; }
+
+.bodyWrap {
+  margin: 0 auto;
+  max-width: 1440px;
+  text-align: center;
+  width: 100%; }
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+hr {
+  border: 0px;
+  border-top: 2px solid #c41230;
+  margin: 25px auto;
+  width: 6%; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+/* ################## Header ##################*/
+.bodyWrap {
+  background: url(images/headerBackground.jpg) no-repeat;
+  background-position: center top; }
+  .bodyWrap .pageHeader {
+    margin: 0 auto;
+    width: 840px;
+    height: 700px; }
+
+.logo {
+  float: left;
+  margin-left: 17%;
+  padding: 10px; }
+  .logo img {
+    float: left; }
+
+.mainNav {
+ 
+  padding: 20px; }
+  .mainNav ul {
+    list-style: none; }
+    .mainNav ul li {
+      display: inline-block;
+      margin-right: 40px;
+      text-transform: uppercase; }
+      .mainNav ul li:last-child {
+        margin-right: 0px; }
+      .mainNav ul li a {
+        color: #222222;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none; }
+
+.navButton {
+  background-color: #f2ebe1;
+  display: none;
+  padding: 16px;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.responsiveNav {
+  clear: both;
+  display: none;
+  width: 100%; }
+  .responsiveNav ul.mainResponsiveNav {
+    list-style: none;
+    background-color: #222222; }
+    .responsiveNav ul.mainResponsiveNav li a {
+      color: #dddddd;
+      font-size: 24px;
+      font-weight: 100;
+      line-height: 80px;
+      text-decoration: none;
+      text-transform: uppercase;
+      width: 100%; }
+  .responsiveNav ul.metaNav {
+    background-color: #222222;
+    list-style: none; }
+    .responsiveNav ul.metaNav li {
+      color: #777777;
+      display: inline-block; }
+      .responsiveNav ul.metaNav li:first-child {
+        width: 30%; }
+      .responsiveNav ul.metaNav li p {
+        float: left;
+        font-weight: 100;
+        line-height: 52px;
+        margin: 0 20px;
+        text-transform: uppercase; }
+      .responsiveNav ul.metaNav li a {
+        float: right;
+        padding: 10px 0; }
+
+.companyTitle {
+  margin-top: 150px; }
+  .companyTitle h1 {
+    font-size: 60px;
+    margin: 40px auto; }
+  .companyTitle p.companyText {
+    font-size: 24px;
+    line-height: 150%;
+    margin: 70px auto;
+    width: 70%; }
+  .companyTitle p.companyTextRes {
+    display: none;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 70px auto;
+    text-transform: uppercase;
+    width: 70%; }
+  .companyTitle hr {
+    width: 10%; }
+
+/* ################## Services ##################*/
+.services {
+  margin: 0 auto;
+  width: 100%; }
+  .services .service {
+    float: left;
+    margin-right: 2%;
+    padding: 50px 0 100px;
+    width: 32%; }
+    .services .service:last-child {
+      margin-right: 0; }
+    .services .service:hover {
+      background-color: #ededed; }
+    .services .service img {
+      margin: 50px auto 10px;
+      width: 20%; }
+    .services .service h3 {
+      font-size: 20px;
+      margin: 20px 0;
+      text-transform: uppercase; }
+    .services .service hr {
+      border-color: #d5d5d5;
+      width: 10%; }
+    .services .service p {
+      color: #5f5f5f;
+      font-size: 18px;
+      line-height: 160%;
+      margin: 0 auto;
+      width: 70%; }
+
+/* ################## Jobs ##################*/
+.subheading {
+  color: #bbbbbb;
+  font-size: 14px;
+  margin: 100px auto 30px;
+  text-transform: uppercase; }
+
+.jobs header {
+  margin: 0 auto;
+  width: 840px; }
+  .jobs header h2 {
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 50px;
+    text-transform: uppercase; }
+    .jobs header h2 ~ p {
+      font-size: 20px;
+      margin: 40px auto;
+      width: 80%; }
+.jobs section {
+  padding: 30px 0;
+  z-index: 1; }
+  .jobs section:hover {
+    background-color: #222222; }
+    .jobs section:hover .position {
+      color: #dddddd; }
+      .jobs section:hover .position ul li {
+        color: #dddddd;
+        border-color: #dddddd; }
+      .jobs section:hover .position a {
+        color: #dddddd;
+        border-color: #dddddd; }
+  .jobs section .position {
+    margin: 0 auto;
+    width: 840px;
+    padding: 10px;
+    position: relative; }
+    .jobs section .position h3 {
+      float: left;
+      text-align: left;
+      text-transform: uppercase;
+      width: 100%; }
+    .jobs section .position p {
+      float: left;
+      text-align: left;
+      width: 55%; }
+    .jobs section .position ul {
+      float: left;
+      list-style: none;
+      width: 100%; }
+      .jobs section .position ul li {
+        border: 1px solid #222222;
+        border-radius: 2px;
+        color: #c41230;
+        float: left;
+        font-size: 14px;
+        margin-right: 5px;
+        min-width: 7%;
+        padding: 10px 20px;
+        text-decoration: none; }
+        .jobs section .position ul li::before {
+          content: "#"; }
+        .jobs section .position ul li:last-child {
+          margin-right: 0; }
+    .jobs section .position a {
+      border: 2px solid #222222;
+      border-radius: 2px;
+      color: #222222;
+      padding: 10px 40px;
+      position: absolute;
+      right: 30px;
+      top: 70px;
+      text-decoration: none;
+      text-transform: uppercase; }
+.jobs aside {
+  margin: 150px auto; }
+  .jobs aside a {
+    background-color: #dddddd;
+    border-radius: 2px;
+    color: #222222;
+    font-size: 14px;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase; }
+
+/* ################## Company Info ##################*/
+.companyInfo {
+  margin: 0 auto;
+  width: 840px;
+  margin: 200px auto; }
+  .companyInfo header h2 {
+    font-size: 50px;
+    font-weight: 200;
+    text-transform: uppercase; }
+  .companyInfo header hr {
+    margin-bottom: 50px; }
+  .companyInfo header ~ p {
+    line-height: 150%;
+    text-align: left; }
+
+.social {
+  margin: 200px auto; }
+  .social ul {
+    list-style: none;
+    text-align: center; }
+    .social ul li {
+      display: inline-block;
+      margin-right: 10px; }
+      .social ul li:last-child {
+        margin-right: 0; }
+
+/* ################## Footer ##################*/
+.pageFooter {
+  background-color: #222222;
+  color: #626262;
+  position: relative;
+  width: 100%; }
+  .pageFooter .footerWrap {
+    margin: 0 auto;
+    width: 840px; }
+    .pageFooter .footerWrap .officeLocation {
+      float: left;
+      margin: 120px 5% 150px 0;
+      text-align: left;
+      width: 30%; }
+      .pageFooter .footerWrap .officeLocation:last-child {
+        margin-right: 0; }
+      .pageFooter .footerWrap .officeLocation img {
+        float: left;
+        margin: 15px 5px 0 0; }
+      .pageFooter .footerWrap .officeLocation h4 {
+        color: #dddddd;
+        float: left;
+        font-weight: 200;
+        text-transform: uppercase; }
+      .pageFooter .footerWrap .officeLocation address {
+        clear: both;
+        font-size: 14px;
+        font-style: normal;
+        line-height: 150%;
+        margin-left: 10px; }
+  .pageFooter .bottomOfFooter {
+    background-color: #1d1d1d;
+    color: #5f5f5f;
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
+    .pageFooter .bottomOfFooter .bottomOfFooterCentered {
+      margin: 0 auto;
+      width: 840px; }
+      .pageFooter .bottomOfFooter .bottomOfFooterCentered small {
+        float: left;
+        font-size: 12px;
+        line-height: 50px;
+        text-transform: uppercase; }
+        .pageFooter .bottomOfFooter .bottomOfFooterCentered small::after {
+          content: " DIWANEEE SERBIA ALL RIGHTS RESERVED"; }
+      .pageFooter .bottomOfFooter .bottomOfFooterCentered .links {
+        float: right; }
+        .pageFooter .bottomOfFooter .bottomOfFooterCentered .links ul {
+          list-style: none; }
+          .pageFooter .bottomOfFooter .bottomOfFooterCentered .links ul li {
+            float: left;
+            margin: 8px 5px; }
+            .pageFooter .bottomOfFooter .bottomOfFooterCentered .links ul li a {
+              color: #5f5f5f;
+              text-decoration: none; }
+              .pageFooter .bottomOfFooter .bottomOfFooterCentered .links ul li a p {
+                font-size: 12px;
+                margin-top: 10px; }
+
+/* ################## Responsive ##################*/
+/* ################## Tablet ##################*/
+@media screen and (max-width: 1440px) {
+  .logo {
+    margin-left: 14%; }
+
+  .pageHeader {
+    width: 80% !important; } }
+@media screen and (max-width: 1030px) {
+  .bodyWrap {
+    background: url(images/tabletBackground.jpg) no-repeat;
+    background-position: center top; }
+    .bodyWrap header.pageHeader {
+      height: 500px; }
+      .bodyWrap header.pageHeader .mainNav {
+        display: none; }
+      .bodyWrap header.pageHeader hr {
+        display: none; }
+
+  .navButton {
+    display: block; }
+
+  .fixedTop {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999; }
+
+  .logo {
+    background-color: #f2ebe1;
+    margin-left: 0;
+    padding: 7px;
+    width: 100%; }
+
+  .services .service {
+    padding: 15px 0 50px; }
+    .services .service img {
+      margin-top: 20px; }
+    .services .service hr {
+      width: 15%; }
+    .services .service p {
+      width: 85%; }
+
+  .jobs aside {
+    margin-top: 80px; } }
+@media screen and (max-width: 880px) {
+  .bodyWrap .pageHeader {
+    margin: 0 auto;
+    width: 85%; }
+
+  .companyTitle p.companyText {
+    margin: 50px auto;
+    width: 90%; }
+
+  .jobs header {
+    margin: 0 auto;
+    width: 85%; }
+  .jobs section {
+    padding: 15px 0; }
+    .jobs section .position {
+      margin: 0 auto;
+      width: 85%; }
+      .jobs section .position p {
+        width: 65%; }
+      .jobs section .position ul li {
+        padding: 10px 15px; }
+      .jobs section .position a {
+        padding: 10px 25px;
+        right: 10px; }
+  .jobs aside {
+    margin: 100px auto; }
+
+  .companyInfo {
+    margin: 0 auto;
+    width: 85%;
+    margin: 150px auto; }
+
+  .social {
+    margin: 150px auto 50px; }
+
+  .pageFooter .footerWrap {
+    width: 95%; }
+  .pageFooter .bottomOfFooter .bottomOfFooterCentered {
+    margin: 0 auto;
+    width: 85%; }
+    .pageFooter .bottomOfFooter .bottomOfFooterCentered small::after {
+      content: " DIWANEEE SERBIA"; }
+    .pageFooter .bottomOfFooter .bottomOfFooterCentered .links ul li a p {
+      margin: 10px 0 0 20px; } }
+/* ################## Mobile ##################*/
+@media screen and (max-width: 560px) {
+  hr {
+    width: 15%; }
+
+  .responsiveNav ul.mainResponsiveNav {
+    padding: 56px 0; }
+  .responsiveNav ul.metaNav {
+    padding: 14px 0; }
+    .responsiveNav ul.metaNav li {
+      display: inline-block; }
+      .responsiveNav ul.metaNav li:first-child {
+        width: 50%; }
+
+  .bodyWrap header.pageHeader article.companyTitle h1 {
+    font-size: 50px; }
+  .bodyWrap header.pageHeader article.companyTitle p.companyText {
+    display: none; }
+  .bodyWrap header.pageHeader article.companyTitle p.companyTextRes {
+    display: block; }
+
+  .services .service {
+    float: none;
+    margin-right: 0;
+    padding: 20px 0 50px;
+    width: 100%; }
+    .services .service img {
+      margin: 20px auto 10px; }
+
+  .subheading {
+    margin-top: 100px; }
+
+  .jobs header h2 {
+    font-size: 40px;
+    margin-bottom: 50px; }
+    .jobs header h2 ~ p {
+      font-size: 20px;
+      margin: 40px auto;
+      width: 80%; }
+  .jobs section {
+    background-color: #f8f7f5;
+    padding: 10px 0;
+    width: 100%; }
+    .jobs section:hover {
+      background-color: #f8f7f5; }
+      .jobs section:hover .position {
+        color: #222222; }
+        .jobs section:hover .position ul li {
+          color: #c41230; }
+    .jobs section:nth-child(2n+1) {
+      background-color: #FFF; }
+    .jobs section .position {
+      padding: 10px; }
+      .jobs section .position p {
+        float: left;
+        text-align: left;
+        width: 95%; }
+      .jobs section .position ul li {
+        border: none;
+        margin-right: 5px;
+        padding: 10px 5px; }
+      .jobs section .position a {
+        display: none; }
+  .jobs aside {
+    margin: 70px auto; }
+
+  .companyInfo {
+    margin: 100px auto; }
+    .companyInfo header h2 {
+      font-size: 40px; }
+    .companyInfo header hr {
+      margin-bottom: 30px; }
+
+  .social {
+    margin: 100px auto 50px; }
+
+  .pageFooter .footerWrap .officeLocation {
+    margin: 20px auto;
+    width: 100%; }
+    .pageFooter .footerWrap .officeLocation:last-child {
+      margin-bottom: 150px; }
+    .pageFooter .footerWrap .officeLocation img {
+      margin: 15px 5px 0 0; }
+  .pageFooter .bottomOfFooter .bottomOfFooterCentered {
+    width: 100%; }
+    .pageFooter .bottomOfFooter .bottomOfFooterCentered .links {
+      background-color: #222222;
+      width: 100%;
+      z-index: 1; }
+      .pageFooter .bottomOfFooter .bottomOfFooterCentered .links ul {
+        margin: 5px auto; }
+        .pageFooter .bottomOfFooter .bottomOfFooterCentered .links ul li {
+          display: inline-block;
+          float: none;
+          vertical-align: middle; }
+          .pageFooter .bottomOfFooter .bottomOfFooterCentered .links ul li a:last-child {
+            margin-right: 0; }
+    .pageFooter .bottomOfFooter .bottomOfFooterCentered small {
+      width: 100%; } }
+@media screen and (max-width: 320px) {
+  .bodyWrap {
+    background: url(images/mobileBackground.jpg) no-repeat; }
+    .bodyWrap .responsiveNav ul.mainResponsiveNav {
+      padding: 86px 0; }
+    .bodyWrap header.pageHeader {
+      height: 560px; } }
+
+/*# sourceMappingURL=style.css.map */
