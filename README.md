@@ -1,7 +1,7 @@
 # mediavuk-test
 Ovo je test za prezentaciju.
 
-#Git Komande
+# Git Komande
 Otvoriti komandnu liniju ( command pront, powerShell, GitBash...) i unositi komande koje su navedene u nastavku
 cd path/to/folder (putanja ka folderu koji vam treba u tom trenutku) ili desnim klikom na lokalni folder koji zelite da povezete sa repositoriumom i odaberite opciju iz padajuceg menija “Git Bash Here”.
 git init (dodavanje git foldera u izabrani folder)
